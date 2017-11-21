@@ -1,0 +1,1216 @@
+/* Start Our Styling */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+body{
+    overflow: hidden;
+    font-family: 'Space Mono', monospace;
+    border-top: 2px dotted #29aafe;
+}
+
+a:hover{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* End Our Styling */
+
+
+/* start header */
+
+header{
+    overflow: hidden;
+    height: 240px;
+    background: #fff;
+}
+
+header .logo{
+    float: left;
+    margin-top: 45px;
+    overflow: hidden;
+    padding: 0;
+    font-family: 'Poiret One', cursive;
+
+}
+
+header .logo .padge-logo{
+   display: inline-block;
+background: linear-gradient(#29b6f6,#2997f6);
+    border-radius: 50%;
+    margin-right: -7px;
+}
+
+header .logo .padge-logo h1{
+       display: inline-block;
+    color: #fff;
+    font-family: 'Marck Script', cursive;
+    margin: 0;
+    font-size: 130px;
+    width: 86px;
+}
+
+header .logo .padge-logo img{width:66px;}
+
+header .logo a{
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 58px;
+    text-decoration: none;
+}
+
+header .logo .hamed{font-size: x-large;}
+
+header .social{
+    float:right;
+    overflow: hidden;
+    margin-top: 90px;
+    padding: 0;
+}
+
+header .social .fa {
+ padding: 15px;
+    font-size: 28px;
+    width: 59px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin-right: 10px;
+    float: right;
+}
+
+header .social .fa-facebook, .fa-twitter, .fa-instagram, .fa-pinterest, .fa-youtube {
+    background: #f9f9f9;
+    border: 1px solid #f6f6f6;
+}
+
+header .social .fa-facebook{
+    color: #3B5998;
+}
+
+header .social .fa-facebook:hover{
+    background: #3B5998;
+    color: #fff;
+}
+
+header .social .fa-twitter {
+    color: #55ACEE;
+}
+
+header .social .fa-twitter:hover {
+    background: #55ACEE;
+    color: #fff;
+}
+
+header .social .fa-instagram {
+    color: #125688;
+}
+
+header .social .fa-instagram:hover {
+    background: #125688;
+    color: #fff;
+}
+
+header .social .fa-youtube {
+  color: #bb0000;
+}
+
+header .social .fa-youtube:hover {
+  background: #bb0000;
+    color: #fff;
+}
+
+header .social .fa-pinterest {
+    color: #cb2027;
+}
+
+header .social .fa-pinterest:hover {
+    background: #cb2027;
+    color: #fff;
+}
+
+/* end header */
+
+
+/* start navbar */
+
+.navbar{
+    margin-bottom: 0;
+}
+
+nav .abdelrahman-ul{
+    margin: 0 6%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav ul a{
+    text-transform: capitalize;
+}
+
+/* end navbar */
+
+/* start section-home */
+
+.skew{
+   
+}
+
+.section-home{
+    width: 100%;
+    overflow: hidden;
+    background: linear-gradient(#29aafe, #0078d7);
+    text-align: center;
+    padding: 60px 40px;
+}
+
+.section-home img{
+    border-radius: 50%;
+    width:240px;
+    margin-top: 100px;
+    border: 1px solid #ddd;
+    padding: 3px;
+    background: #fff;
+}
+
+.section-home .intro{
+    color: #fff;
+    width: 100%;
+    margin: 50px 0 110px 0;
+}
+
+.section-home h3{
+    width: 100%;
+    text-shadow: 1px 1px 10px #676767;
+      overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space:nowrap; /* Keeps the content on a single line */
+  margin: 20px auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 1px; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end);
+}
+
+.section-home h3 span{
+  animation: blink 1s infinite;
+}
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+.section-home p{
+    text-align: center;
+    text-shadow: 1px 1px 10px #676767;
+
+}
+
+/* end section-home */
+
+
+/* start section-about */
+
+.section-about{
+    overflow: hidden;
+    background: #fff;
+    height: auto;
+   padding:12em 0;
+}
+
+.section-about .about .all{
+    margin-top: 80px;
+    float: left;
+}
+
+.section-about .about .all p{
+    font-weight: 900;
+    font-size: 17px;
+}
+
+.section-about .about .all p span{
+    font-weight: 400;
+    color: #0000007d;
+    font-size: 15px;
+}
+
+.section-about .about .hey{
+    margin-top: 60px;
+    float: right;
+}
+
+.section-about .about .hey p{
+   color: #000000b0;
+    font-size: 15px;
+}
+
+.section-about .about h3{
+    text-align: center;
+    color: #000;
+}
+
+.section-about .about .title hr{
+  width: 40px;
+    margin:20px auto;
+    height: 2px;
+    float: none;
+    background: #29aafe;
+}
+
+.section-about .about hr{
+    width: 15px;
+    margin: 9px;
+    height: 2px;
+    float: right;
+    background: #29aafe;
+}
+
+.section-about .about .hey span{
+    margin: 0;
+    float: right;
+    font-family: Pacifico,cursive;
+}
+
+.section-about .about .talents .actor, .web-designer {
+display: inline-block;
+    margin-right: 60px;
+}
+
+.section-about .about .talents .actor h6, .web-designer h6{
+display: inline-block;
+    font-size: 19px;
+}
+
+.section-about .about .talents .actor i, .web-designer i{
+    font-size: 25px;
+    padding: 13px;
+    border-radius: 50%;
+}
+
+.section-about .about .talents .web-designer i{font-size: 24px;}
+
+.section-about img{
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 3px;
+    border-radius: 50%;
+}
+
+/* end section-about */
+
+
+
+/* start Resume */
+
+
+    .resume .work-ex{
+ text-align: center;background: #e6e6e6;width: 30%;margin: 0 auto;border-radius: 4px;padding:8px;font-size:18px;font-weight:900;letter-spacing: 5px;
+    }
+
+  .resume .education{
+  text-align: center;background: #e6e6e6;width: 19%;margin: 0 auto;border-radius: 4px;padding:8px;font-size:18px;font-weight:900;letter-spacing: 5px;margin:50px 0;display: inline-block;position: relative;
+    }
+
+.page-header {
+    border-bottom: 0;
+    text-align: center;
+}
+
+
+.timeline {
+    list-style: none;
+    padding: 20px 0 7em;
+    position: relative;
+    margin-bottom: 7em;
+}
+
+    .timeline:before {
+        top: 0;
+        bottom: 0;
+        position: absolute;
+        content: " ";
+        width: 2px;
+        background-color: #eeeeee;
+        left: 50%;
+        margin-left: -1.5px;
+    }
+
+    .timeline > li {
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+        .timeline > li:before,
+        .timeline > li:after {
+            content: " ";
+            display: table;
+        }
+
+        .timeline > li:after {
+            clear: both;
+        }
+
+        .timeline > li:before,
+        .timeline > li:after {
+            content: " ";
+            display: table;
+        }
+
+        .timeline > li:after {
+            clear: both;
+        }
+
+        .timeline > li > .timeline-panel {
+            width: 46%;
+            float: left;
+            text-align: right;
+            padding: 20px;
+        }
+
+            .timeline > li > .timeline-panel:before {
+                position: absolute;
+                top: 26px;
+                right: -15px;
+                display: inline-block;
+                border-top: 15px solid transparent;
+                border-left: 15px solid #ccc;
+                border-right: 0 solid #ccc;
+                border-bottom: 15px solid transparent;
+            }
+
+            .timeline > li > .timeline-panel:after {
+                position: absolute;
+                top: 27px;
+                right: -14px;
+                display: inline-block;
+                border-top: 14px solid transparent;
+                border-left: 14px solid #fff;
+                border-right: 0 solid #fff;
+                border-bottom: 14px solid transparent;
+            }
+
+        .timeline > li > .timeline-badge {
+            color: #fff;
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            font-size: 1.4em;
+            text-align: center;
+            position: absolute;
+            top: 16px;
+            left: 50%;
+            margin-left: -25px;
+            background-color: #29aafe;
+            z-index: 100;
+            border-top-right-radius: 50%;
+            border-top-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+            border-bottom-left-radius: 50%;
+        }
+
+        .timeline > li.timeline-inverted > .timeline-panel {
+            float: right;
+            text-align: left;
+        }
+
+            .timeline > li.timeline-inverted > .timeline-panel:before {
+                border-left-width: 0;
+                border-right-width: 15px;
+                left: -15px;
+                right: auto;
+            }
+
+            .timeline > li.timeline-inverted > .timeline-panel:after {
+                border-left-width: 0;
+                border-right-width: 14px;
+                left: -14px;
+                right: auto;
+            }
+
+.timeline-title {
+    margin-top: 0;
+    color: inherit;
+}
+
+.timeline-body > p,
+.timeline-body > ul {
+    margin-bottom: 0;
+}
+
+    .timeline-body > p + p {
+        margin-top: 5px;
+    }
+
+@media (max-width: 767px) {
+    ul.timeline:before {
+        left: 40px;
+    }
+
+    ul.timeline > li > .timeline-panel {
+        width: calc(100% - 90px);
+        width: -moz-calc(100% - 90px);
+        width: -webkit-calc(100% - 90px);
+    }
+
+    ul.timeline > li > .timeline-badge {
+        left: 15px;
+        margin-left: 0;
+        top: 16px;
+    }
+
+    ul.timeline > li > .timeline-panel {
+        float: right;
+        text-align: left;
+    }
+
+        ul.timeline > li > .timeline-panel:before {
+            border-left-width: 0;
+            border-right-width: 15px;
+            left: -15px;
+            right: auto;
+        }
+
+        ul.timeline > li > .timeline-panel:after {
+            border-left-width: 0;
+            border-right-width: 14px;
+            left: -14px;
+            right: auto;
+        }
+}
+
+
+
+/* end Resume */
+
+
+
+/* Start Section-portfolio */
+
+.section-portfolio{
+    overflow: hidden;
+    height: auto;
+    padding: 8em 0;
+    background: linear-gradient(#0078d7, #29aafe);
+    color: #fff;
+}
+
+.section-portfolio .title{
+    margin-bottom: 5em;
+}
+
+.section-portfolio .title h3{
+    text-align: center;
+    margin: auto;
+}
+
+.section-portfolio .title hr{
+    background: #fff;
+    height: 2px;
+    width: 40px;
+    border: 0;
+}
+
+.section-portfolio .content-portfolio .theater hr, .section-portfolio .content-portfolio .web-design hr{
+    float: left;
+    width: 10px;
+    height: 2px;
+    background: #fff;
+    margin: 39px 7px 0 0;
+    border: 0;
+    color: #fff;
+}
+
+.section-portfolio .content-portfolio h3{
+    padding-bottom:5px;
+    font-size: 28px;
+}
+
+.section-portfolio .content-portfolio .theater-works, .web-works{
+    float: right;
+    width: 180px;
+    padding: 0;
+    margin: 3%;
+}
+
+.section-portfolio .content-portfolio .web-works{margin-bottom: 2px;}
+
+.section-portfolio .content-portfolio .theater-works img, .web-works img{
+    height: 190px;
+    border: 1px solid #fff;
+    background: #fff;
+    padding: 3px;
+    margin-bottom: 20px;
+    opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+       box-shadow: 5px 5px 12px #005790;
+}
+
+  .overlay {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.section-portfolio .content-portfolio .theater-works:hover img {
+  opacity: 0.3;
+}
+
+.section-portfolio .content-portfolio .theater-works:hover .overlay {
+  opacity: 1;
+}
+
+.section-portfolio .content-portfolio .web-works:hover img {
+  opacity: 0.3;
+}
+
+.section-portfolio .content-portfolio .web-works:hover .overlay {
+  opacity: 1;
+}
+
+.section-portfolio .content-portfolio .theater-works .desc, .web-works .desc{
+    background-color: #fff;
+  color: #0078d7;
+  font-size: 12px;
+  padding: 15px 11px;
+    text-align: center;
+    border-radius: 2px;
+    border: 1px solid #fff;
+    box-shadow: 2px 2px 4px #49535a;
+}
+
+.section-portfolio .content-portfolio .theater-works .desc{
+    font-family: 'El Messiri', sans-serif;
+}
+
+/* End Section-portfolio */
+
+
+
+/* Start friend */
+
+       .friends{padding: 8em 0;}
+        
+         .friends h3{text-align: center;padding-bottom: 10px;}
+        
+        .friends p{text-align: center;padding-bottom: 10px;}
+        
+         .friends hr{
+            width: 40px;
+             margin-bottom: 3em;
+    height: 2px;
+    float: none;
+    background: #29aafe;
+             border: 0;
+        }
+        
+.friends table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+.friends th, td {
+    text-align: left;
+    padding: 16px;
+}
+
+.friends td i {
+        background: #3b5998;
+    padding: 14px 1em;
+    border-radius: 50%;
+    color: #fff;
+    margin-left: 5px;
+    font-size: 19px;
+}
+
+.friends tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+/* End friend */
+
+
+
+/* start message */
+
+.message{
+       padding: 45px;
+    border-bottom: 2px dotted #000;
+    border-left: 3px dotted #fff;
+    height: 200px;
+    line-height: 1;
+    overflow: hidden;
+    text-align: center;
+    background: #29aafe;
+}
+
+.message .fa{
+    font-size: 60px;
+    color: #29aafe;
+    padding: 19px;
+    margin-right: 20px;
+    border-radius: 50px;
+    text-shadow: 1px 1px 1px #000;
+    background: #fff;
+}
+
+.message h2{
+    display: inline-block;
+    font-family: 'Shadows Into Light', cursive;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+}
+
+/* end message */
+
+
+/* start contact-me */
+
+.contact-me{
+    padding: 40px 0 20px 0;
+    overflow: hidden;
+    height: auto;
+    text-align: center;
+    background-image:url(../img/contact-me-background.png);
+    background-attachment: fixed;
+        border-bottom: 2px dotted #29aafe;
+}
+
+.contact-me .title{
+    margin-bottom: 30px;
+}
+
+.contact-me .title h3{ text-align: center; color: #fff;font-family: 'Space Mono', monospace;}
+
+.contact-me .title hr{
+    width: 50px;
+    height: 2px;
+    background: #29aafe;
+    border: 0;
+}
+
+.contact-me form{display: inline-block;}
+
+.contact-me form i{
+   position: relative;
+    top: 40px;
+    left: 20px;
+    float: left;
+    text-align: left;
+    font-size: 18px;
+    color: #b5b5b5;
+}
+
+.contact-me form .form-group input, .contact-me form .form-group textarea{
+    border: 0px;
+    border-left: 2px solid #29aafe;
+    padding: 15px 0 15px 50px;
+   -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.38), 0 0 40px rgba(0, 0, 0, 0.17) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.38), 0 0 40px rgba(0, 0, 0, 0.17) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.38), 0 0 40px rgba(0, 0, 0, 0.17) inset;
+    background: none;
+}
+
+.contact-me form .send i{
+    position: relative;
+    bottom: 0;
+    left: 40px;
+    top: 41px;
+    right: 0;
+    float: none;
+    font-size: 23px;
+    color: #fff;
+    z-index: 9999;
+    text-align: center;
+}
+
+.contact-me form .send button{
+  padding: 10px 90px 8px 50px;
+    background: none;
+    border: 0;
+    border-right: 3px solid #29aafe;
+    border-left: 3px solid #29aafe;
+    float: none;
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-family: 'Space Mono', monospace !important;
+    border-radius: 4px;
+    box-shadow: 1px 1px 5px #040404;
+}
+
+/* end contact-me */
+
+
+/* start footer */
+
+.page-footer{height: auto;padding-bottom: 15px;background: #fff !important;color: #000;padding: 30px;}
+
+/* end footer */
+
+
+
+
+
+
+/****************************************************** START MEDIA QUIRY *******************************/
+
+
+@media screen and (max-width : 1300px){
+    
+
+    /* start header */       
+    
+header{height: 150px;width: 100%;}
+
+header .logo{margin-top: 15px;}
+
+header .logo .padge-logo{width: 100px;margin-right: -11px;}
+
+header .logo .padge-logo h1{font-size: 90px;width: 63px;}
+
+header .logo .padge-logo img{width:37px;}
+
+header .logo a{font-size: 49px;}
+
+header .logo .hamed{font-size: initial;}
+    
+header .social{margin-top: 45px;}
+
+header .social .fa {
+    padding: 11px;
+    font-size: 24px;
+    width: 48px;
+    margin-right: 10px;
+    float: right;
+}
+  
+    /* end header */ 
+    
+    
+     /* start section-about */
+
+.section-about{
+    height: auto;
+}
+
+.section-about .about{padding: 0;}
+
+.section-about .about h3{font-size: 32px;}
+
+.section-about .about .title hr{width: 35px;}
+
+.section-about .about hr{
+    width: 19px;
+    margin: 6px;
+    height: 2px;
+    float: right;
+    background: #29b6f6;
+}
+    
+.section-about .about .talents .actor, .web-designer {margin-right: 12px;}
+
+.section-about .about .talents .actor h6, .web-designer h6{font-size: 15px;}
+
+.section-about .about .talents .actor i, .web-designer i{
+    font-size: 15px;
+    margin-right: 3px;
+    padding: 10px;
+}
+
+.section-about .about .talents .web-designer i{font-size: 15px;}
+
+.section-about img{width: 255px;}
+
+/* end section-about */
+    
+}
+
+
+
+
+
+@media screen and (max-width : 992px){
+    
+
+    /* start header */       
+    
+header{height: 150px;width: 100%;}
+
+header .logo{margin-top: 25px;}
+
+header .logo .padge-logo{width: 76px;margin-right: -11px;}
+
+header .logo .padge-logo h1{font-size: 69px;width: 45px;}
+
+header .logo .padge-logo img{width:31px;}
+
+header .logo a{font-size: 42px;}
+
+header .logo .hamed{font-size: initial;}
+    
+header .social{margin-top: 45px;}
+
+header .social .fa {
+    padding: 9px;
+    font-size: 20px;
+    width: 40px;
+    margin-right: 10px;
+    float: right;
+}
+  
+        
+        .section-home h3{
+        font-size: 32px;
+}
+    
+    .section-home p{font-size: 13px;}
+    
+    /* end header */ 
+    
+    
+     /* start section-about */
+
+.section-about{
+    height: auto;
+}
+
+.section-about .about{padding: 0;}
+
+.section-about .about h3{font-size: 32px;}
+
+.section-about .about .title hr{width: 35px;}
+
+.section-about .about hr{
+    width: 19px;
+    margin: 6px;
+    height: 2px;
+    float: right;
+    background: #29b6f6;
+}
+    
+.section-about .about .talents .actor, .web-designer {margin-right: 12px;}
+
+.section-about .about .talents .actor h6, .web-designer h6{font-size: 15px;}
+
+.section-about .about .talents .actor i, .web-designer i{
+    font-size: 15px;
+    margin-right: 3px;
+    padding: 10px;
+}
+
+.section-about .about .talents .web-designer i{font-size: 15px;}
+
+.section-about img{width: 140px;}
+
+/* end section-about */
+  
+    .resume .education{
+  text-align: center;background: #e6e6e6;width: 25%;margin: 0 auto;border-radius: 4px;padding:8px;font-size:18px;font-weight:900;letter-spacing: 5px;margin:50px 0;display: inline-block;position: relative;
+    }
+    
+}
+
+
+
+
+@media screen and (max-width : 767px){
+    
+   /* start header */       
+    
+header{height: 240px;width: 100%;text-align: center;}
+
+header .logo{margin-top: 25px;}
+
+header .logo .padge-logo{width: 80px;}
+
+header .logo .padge-logo h1{font-size: 75px;width: 50px;}
+
+header .logo .padge-logo img{width:30px;}
+
+header .logo a{font-size: 45px;}
+
+header .logo .hamed{font-size: initial;}
+    
+header .social{margin-top: 45px;}
+
+header .social .fa {
+    padding: 15px;
+    font-size: 27px;
+    width: 60px;
+    margin-right: 10px;
+    float: none;
+}
+  
+    
+        .section-home h3{
+        font-size: 17px;
+}
+    
+    .section-home p{font-size: 11px;}
+    
+    /* end header */ 
+    
+    /* start section-about */
+
+.section-about{
+    height: auto;
+}
+
+.section-about .about{padding: 0;}
+
+.section-about .about h3{font-size: 32px;}
+
+.section-about .about .title hr{width: 35px;}
+
+.section-about .about hr{
+    width: 19px;
+    margin: 6px;
+    height: 2px;
+    float: right;
+    background: #29b6f6;
+}
+    
+.section-about .about .talents .actor, .web-designer {margin-right: 12px;}
+
+.section-about .about .talents .actor h6, .web-designer h6{font-size: 15px;}
+
+.section-about .about .talents .actor i, .web-designer i{
+    font-size: 15px;
+    margin-right: 3px;
+    padding: 10px;
+}
+
+.section-about .about .talents .web-designer i{font-size: 15px;}
+
+.section-about img{width: 140px;}
+
+/* end section-about */
+    
+    
+        /* start resume */
+    
+    .resume .work-ex{
+ text-align: center;background: #e6e6e6;width: 90%;margin: 0 auto;border-radius: 4px;padding:8px;font-size:18px;font-weight:900;letter-spacing: 5px;
+    }
+
+  .resume .education{
+  text-align: center;background: #e6e6e6;width: 90%;margin: 0 auto;border-radius: 4px;padding:8px;font-size:18px;font-weight:900;letter-spacing: 5px;margin:50px 0;display: inline-block;position: relative;
+    }
+    
+    /* end resume */
+    
+    
+    /* start message */
+
+.message{
+    padding: 10px;
+    border-bottom: 2px dotted #000;
+    height: 100px;
+    line-height: 1;
+    text-align: center;
+     background: #29aafe;
+}
+
+.message .fa{
+    font-size: 37px;
+    color: #2995f6;
+    padding: 15px;
+    margin-right: 2px;
+    border-radius: 50%;
+    text-shadow: 1px 1px 1px #000;
+    background: #fff;
+    float: left;
+    margin-top: 8px;
+}
+
+.message h2{
+    display: inline-block;
+    font-family: 'Shadows Into Light', cursive;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+    font-size: 37px;
+}
+
+/* end message */
+    
+}
+
+
+
+
+@media screen and (max-width : 480px) {
+    
+/* start header */       
+    
+header{height: 240px;width: 100%;text-align: center;}
+
+header .logo{margin-top: 23px;}
+
+header .logo .padge-logo{width: 102px;margin-right: 10px;}
+
+header .logo .padge-logo h1{font-size: 88px;width: 57px;}
+
+header .logo .padge-logo img{width:45px;}
+
+header .logo a{font-size: 41px;}
+
+header .logo .hamed{font-size: initial;}
+    
+header .social{margin-top: 7px;}
+
+header .social .fa {
+ padding: 9px;
+    font-size: 20px;
+    width: 39px;
+    margin-right: 10px;
+    float: none;
+}
+  
+    .section-home h3{
+        font-size: 12px;
+}
+    
+    .section-home p{font-size: 7px;}
+    
+    /* end header */ 
+    
+    
+    /* start section-about */
+
+.section-about{
+    height: auto;
+}
+
+.section-about .about{padding: 0;}
+
+.section-about .about h3{font-size: 32px;}
+
+.section-about .about .title hr{width: 35px;}
+
+.section-about .about hr{
+    width: 19px;
+    margin: 6px;
+    height: 2px;
+    float: right;
+    background: #29b6f6;
+}
+    
+.section-about .about .talents .actor, .web-designer {margin-right: 12px;}
+
+.section-about .about .talents .actor h6, .web-designer h6{font-size: 15px;}
+
+.section-about .about .talents .actor i, .web-designer i{
+    font-size: 15px;
+    margin-right: 3px;
+    padding: 10px;
+}
+
+.section-about .about .talents .web-designer i{font-size: 15px;}
+
+.section-about img{width: inherit;}
+
+/* end section-about */
+    
+    /* start resume */
+    
+    .resume .work-ex{
+ text-align: center;background: #e6e6e6;width: 90%;margin: 0 auto;border-radius: 4px;padding:8px;font-size:18px;font-weight:900;letter-spacing: 5px;
+    }
+
+  .resume .education{
+  text-align: center;background: #e6e6e6;width: 90%;margin: 0 auto;border-radius: 4px;padding:8px;font-size:18px;font-weight:900;letter-spacing: 5px;margin:50px 0;display: inline-block;position: relative;
+    }
+    
+    /* end resume */
+    
+    
+/* Start Section-portfolio */
+
+.section-portfolio{padding: 40px 0 20px 0;}
+
+.section-portfolio .title h3{text-align: center;margin: 0;font-size: 32px;}
+
+.section-portfolio .title hr{
+    height: 2px;
+    width: 30px;
+    float: none;
+}
+
+.section-portfolio .content-portfolio .theater hr{width: 9px;}
+
+.section-portfolio .content-portfolio h3{padding-bottom:5px;}
+
+.section-portfolio .content-portfolio .web-design hr{width: 9px;}
+
+    
+/* End Section-portfolio */
+
+    
+    
+/* start message */
+
+.message{
+     padding: 10px;
+    border-left: 4px dotted #fff;
+    height: 100px;
+    line-height: 1;
+    text-align: center;
+     background: #29aafe;
+}
+
+.message .fa{
+    font-size: 29px;
+    color: #2995f6;
+    padding: 10px;
+    margin-right: 2px;
+    border-radius: 50%;
+    text-shadow: 1px 1px 1px #000;
+    background: #fff;
+    float: left;
+    margin-top: 14px;
+}
+
+.message h2{
+    display: inline-block;
+    font-family: 'Shadows Into Light', cursive;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+    font-size: 25px;
+}
+
+/* end message */
+    
+    
+/* start contact-me */  
+    
+.contact-me .title h3{ font-size:32px;}
+
+.contact-me .title hr{width: 35px;}
+    
+/* end contact-me */    
+
+/* start footer */
+    .page-footer{
+        height: auto;
+        padding: 30px;
+        text-align: center;
+        line-height: 2;
+    }
+/* end footer */
+    
+}
